@@ -1,0 +1,158 @@
+
+
+@supports (grid-area: auto) {
+	
+		#grid {
+			display: grid;
+			grid-template-columns: 20% 20% 20%;
+			/*90% screen - leaves spaces for grid-gap */
+			grid-template-areas: 
+				"laptop tray gear"
+				"etool minis figs"
+				"card flag money";
+			justify-content: center;
+			grid-gap: 13% 13%;
+		}
+		
+		#laptop {
+			grid-area: laptop;
+			max-height: 50px; 
+			max-width: 50px;
+			text-align: center;
+		}
+		
+		#tray {
+			grid-area: tray;
+			min-height: 50px;
+			min-width: 50px;
+			text-align: center;
+		}
+		
+		#gear {
+			grid-area: gear;
+			min-height: 50px;
+			min-width: 50px;
+			text-align: center;
+		}
+		
+		#etool {
+			grid-area: etool;
+			min-height: 50px;
+			min-width: 50px;;
+			text-align: center;
+		}
+		
+		#minis {
+			grid-area: minis;
+			min-height: 50px;
+			min-width: 50px;
+			text-align: center;
+		}
+		
+		#figs {
+			grid-area: figs;
+			min-height: 50px;
+			min-width: 50px;
+			text-align: center;
+		}
+		
+		#card {
+			grid-area: card;
+			min-height: 50px;
+			min-width: 50px;
+			text-align: center;
+		}
+		
+		#flag {
+			grid-area: flag;
+			min-height: 50px;
+			min-width: 50px;
+			text-align: center;
+		}
+		
+		#money {
+			grid-area: money;
+			min-height: 50px;
+			min-width: 50px;
+			text-align: center;
+		}
+	
+	@media screen and (min-width: 1015px) {
+
+		#grid {
+			display: grid;
+			wdith: 100%;
+			grid-template-columns: 30% 30% 30%;
+			/*90% screen - leaves spaces for grid-gap */
+			grid-template-areas: 
+				"laptop tray gear"
+				"etool minis figs"
+				"card flag money";
+			justify-content: center;
+			grid-gap: 3% 3%;
+		}
+		
+		#laptop {
+			grid-area: laptop;
+			max-height: 250px; 
+			max-width: 250px;
+			text-align: center;
+		}
+		
+		#tray {
+			grid-area: tray;
+			min-height: 250px;
+			min-width: 250px;
+			text-align: center;
+		}
+		
+		#gear {
+			grid-area: gear;
+			min-height: 250px;
+			min-width: 250px;
+			text-align: center;
+		}
+		
+		#etool {
+			grid-area: etool;
+			min-height: 250px;
+			min-width: 250px;;
+			text-align: center;
+		}
+		
+		#minis {
+			grid-area: minis;
+			min-height: 250px;
+			min-width: 250px;
+			text-align: center;
+		}
+		
+		#figs {
+			grid-area: figs;
+			min-height: 250px;
+			min-width: 250px;
+			text-align: center;
+		}
+		
+		#card {
+			grid-area: card;
+			min-height: 250px;
+			min-width: 250px;
+			text-align: center;
+		}
+		
+		#flag {
+			grid-area: flag;
+			min-height: 250px;
+			min-width: 250px;
+			text-align: center;
+		}
+		
+		#money {
+			grid-area: money;
+			min-height: 250px;
+			min-width: 250px;
+			text-align: center;
+		}
+	}
+}

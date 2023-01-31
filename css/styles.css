@@ -1,0 +1,760 @@
+/* CSS Document */
+
+/* Colors
+Green - #2C8A2E
+Red - #FA4434
+Golden Yellow - #F0E384
+Black - #000000
+White - #ECEEF7
+Gray - #808080
+*/
+
+/* Fonts
+font-family: 'Cinzel', serif;
+font-family: 'Playball', cursive;
+font-family: 'Teko', sans-serif;
+font-family: 'Yeseva One', cursive;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playball&family=Teko:wght@400;700&family=Yeseva+One&display=swap');
+
+/* CSS Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: 0;
+}
+
+
+/*------------------Body Styles-----------------------------------*/
+
+body {
+	width: 100%;
+}
+
+/*------------------End Body Styles-x: ;------------------------------*/
+
+
+/*------------------Header Styles---------------------------------*/
+
+header {
+ background-color: #FA4434;
+}
+
+
+h1 {
+	color: #ECEEF7;
+	font-family: 'Playball', cursive;
+}
+
+.title {
+	background-color: #FA4434;
+	padding: 5%;
+}
+
+.title2 {
+	display: none;
+}
+
+.backdrop {
+	background-image: url("../images/backdrop.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: #F0E384;
+}
+
+.backdrop2 {
+	min-height: 150px;
+	background-color: #F0E384;
+}
+
+.backdrop3 {
+	background-image: url("../images/santaTracker.png");
+	background-size: cover;
+	background-position: center;
+	background-color: #F0E384;
+}	
+	
+/*------------------End Header Styles-----------------------------*/
+
+
+/*------------------Nav Styles (Top)------------------------------*/
+
+
+nav {
+	background-color: #FA4434;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #ECEEF7;
+}
+
+.tmenu {
+	display: none;
+}
+
+.menu-icon {
+	background-color: #FA4434;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	
+}
+
+.mobile-nav {
+	position: relative;
+	display: inline-block;
+	float: right;
+	margin-right: 56px;
+}
+
+.menu {
+	display: none;
+	position: absolute;
+	background-color: #2C8A2E;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.menu a {
+	color: #ECEEF7;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.menu a:hover {
+}
+
+.mobile-nav:hover .menu {
+	display: block;
+}
+
+.mobile-nav:hover .dropbtn {
+	background-color: #2C8A2E;
+}
+
+/*------------------End Nav Styles--------------------------------*/
+
+
+/*------------------Main Styles-----------------------------------*/
+
+main {
+	padding: 50px 20px 150px 20px; /* TRBL */
+	background-size: cover;
+}
+
+section {
+	padding: 30px 30px 30px 30px;
+	margin: auto;
+}
+
+section a {
+	color: #FA4434;
+	font-family: 'Yeseva One', cursive;
+	font-size: 0.75em;
+	text-decoration: none;
+	float: left;
+}
+
+section a:hover {
+	color: #2C8A2E;
+}
+
+.desktop {
+	display: none;
+}
+
+h3, p {
+	position: relative;
+}
+
+h3 {
+	top: 20px;
+	font-family: 'Cinzel', serif;
+	font-size: 1.4em;
+}
+
+.tracker {
+	top: 30px;
+	font-size: 2em;
+	text-align: center;
+	color: #808080;
+	padding: 10%;
+}
+
+p {
+	top: 30px;	
+	font-family: 'Teko', sans-serif;
+	font-size: 0.9em;
+	color: #2C8A2E;
+}
+
+.image {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	width: 50%;
+	border: 10px solid #FA4434;
+	border-radius: 25px;
+}
+
+
+main .laptop {
+	min-height: 75px;
+	min-width: 75px;
+	background-image: url("../images/gamingLaptop_small.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: #FF003C;
+	border: solid; 
+	border-color: #000000;
+	border-width: 20px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+main .tray {
+	min-height: 75px;
+	min-width: 75px;
+	background-image: url("../images/diceTray_small.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: #FF003C;
+	border: solid; 
+	border-color: #000000;
+	border-width: 20px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+main .gear {
+	min-height: 75px;
+	min-width: 75px;
+	background-image: url("../images/ww1Gear_small.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: #FF003C;
+	border: solid; 
+	border-color: #000000;
+	border-width: 20px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+main .etool {
+	min-height: 75px;
+	min-width: 75px;
+	background-image: url("../images/eTool_small.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: #FF003C;
+	border: solid; 
+	border-color: #000000;
+	border-width: 20px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+main .minis {
+	min-height: 75px;
+	min-width: 75px;
+	background-image: url("../images/miniatures_small.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-color: #FF003C;
+	border: solid; 
+	border-color: #000000;
+	border-width: 20px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+main .figs {
+	min-height: 75px;
+	min-width: 75px;
+	background-image: url("../images/minifigs_small.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: #FF003C;
+	border: solid; 
+	border-color: #000000;
+	border-width: 20px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+main .card {
+	min-height: 75px;
+	min-width: 75px;
+	background-image: url("../images/graphicsCard_small.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: #FF003C;
+	border: solid; 
+	border-color: #000000;
+	border-width: 20px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+main .flag {
+	min-height: 75px;
+	min-width: 75px;
+	background-image: url("../images/britishFlag_small.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: #FF003C;
+	border: solid; 
+	border-color: #000000;
+	border-width: 20px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+main .money {
+	min-height: 75px;
+	min-width: 75px;
+	background-image: url("../images/money_small.jpg");
+	background-size: contain;
+	background-position: center;
+	background-color: #FF003C;
+	border: solid; 
+	border-color: #000000;
+	border-width: 20px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+#tracker {
+	text-align: center;
+	font-size: 1.5em;
+}	
+
+.santa {
+	font-family: 'Teko', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ECEEF7;
+	background-color: #FA4434;
+	position: absolute;
+	padding: 5%;
+	margin-left: 31%;
+	border-radius: 20px;
+}
+	
+.santa:hover {
+	background-color: #2C8A2E;
+	color: #808080;
+}
+
+/*------------------End Main Styles-------------------------------*/
+
+
+/*------------------Nav Styles (Bottom)---------------------------*/
+
+.fNav {
+	background-color: #000000;
+	padding: 0;
+}
+
+.fNav li a {
+	color: #ECEEF7;
+	text-decoration: none;
+}
+
+.fNav li a:hover {
+	color: #808080;
+}
+
+.left {
+	clear: both;
+	float: left;
+	margin-bottom: -25%;
+	text-align: left;
+}
+
+.right {
+	clear: both;
+	float: right;
+	margin-bottom: -25%;
+	text-align: right;
+}
+
+.central {
+	clear: both;
+	padding: 0;
+	margin-top: 4%;
+	text-align: center;
+}
+
+footer {
+		padding: 50px 25px 50px 25px; /* TRBL */
+		min-width: 50%;
+		min-height: 100px;
+		background-color: #000000;
+	}
+
+/*------------------End Footer Styles----------------------------*/
+
+
+@media screen and (min-width: 630px), print { /* Tablet Styles */
+
+	img {
+		display: none;
+	}
+	
+	.desktop {
+		display: none;
+	}
+	
+	.backdrop {
+		background-image: url("../images/backdrop.jpg");
+		background-size: contain;
+		background-position: center;
+		background-color: #F0E384;
+}
+	
+	.menu-icon {
+		display: inline-block;
+		background-color: #FA4434;
+		padding: 16px;
+		font-size: 16px;
+		border: none;
+		cursor: pointer;
+	}
+
+	.mobile-nav {
+		position: relative;
+		display: inline-block;
+		float: right;
+	}
+
+	.menu {
+		display: none;
+		position: absolute;
+		background-color: #2C8A2E;
+		min-width: 100px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+
+	.menu a {
+		color: #ECEEF7;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+
+	.menu a:hover {
+	}
+
+	.mobile-nav:hover .menu {
+		display: block;
+	}
+
+	.mobile-nav:hover .dropbtn {
+		background-color: #2C8A2E;
+	}
+
+	
+	main {
+		padding: 300px 75px 300px 75px; /* TRBL */
+	}
+
+	section a {
+		color: #FA4434;
+		text-decoration: none;
+	}
+	
+	.desktop {
+		display: none;
+	}
+
+	h3, p {
+		position: relative;
+	}
+
+	h3 	{
+		top: 20px;
+		font-family: 'Cinzel', serif;
+		font-size: 3em;
+	}
+	
+	.fNav {
+		background-color: #000000;
+		padding: 0;
+}
+
+	.fNav li a {
+		color: #ECEEF7;
+		text-decoration: none;
+	}
+
+	.fNav li a:hover {
+		color: #808080;
+	}
+
+	.left {
+		clear: both;
+		float: left;
+		text-align: left;
+	}
+
+	.right {
+		clear: both;
+		float: right;
+		text-align: right;
+	}
+
+	.central {
+		clear: both;
+		padding: 0;
+		text-align: center;
+	}
+
+	footer {
+		padding: 125px 25px 125px 25px; /* TRBL */
+		min-width: 50%;
+		min-height: 40px;
+		background-color: #000000;
+	}
+}
+
+
+@media screen and (min-width: 1015px), print { /* Desktop Styles */
+		
+	header {
+		background-image: url("../images/header.jpeg");
+		background-size: cover;
+		background-color: #FA4434;
+		padding: 10px 10px 10px 34px; /* TRBL */
+		height: 250px;
+}
+	
+	img {
+		display: none;
+	}
+	
+	h1 {
+		padding: 0px;
+		text-align: center;
+		color: #ECEEF7;
+	}
+	
+	.title {
+		display: none
+	}
+	
+	.title2 {
+		display: block;
+	}
+	
+	.backdrop {
+		background-image: url("../images/backdrop.jpg");
+		background-size: cover;
+		background-position: center;
+		background-color: #F0E384;
+	}
+	
+	.backdrop2 {
+		background-color: #F0E384;
+		min-height: 250px;
+	}
+	
+	.menu-icon {
+		display: none;
+	}
+	
+	main {
+		background-size: cover;
+		min-height: 50%;
+		padding: 175px 50px 200px 50px; /* TRBL */
+	}
+	
+	section a {
+		font-size: 1.5em;
+	}
+	
+	.desktop {
+		display: inline-block;
+	}
+
+	h3, p {
+		position: relative;
+	}
+
+	h3 {
+		top: 20px;
+		font-family: 'Cinzel', serif;
+		font-size: 2.6em;
+		text-align: center;
+	}
+	
+	p {
+		top: 30px;	
+		font-family: 'Teko', sans-serif;
+		font-size: 1.8em;
+		color: #2C8A2E;
+	}
+	
+	.tmenu {
+		dsplay: block;
+	}
+
+	.image {
+		display: block;
+		margin-left: auto;
+  		margin-right: auto;
+		width: 40%;
+		height: 40%;
+		border: 10px solid #FA4434;
+		border-radius: 25px;
+	}
+	
+	main .laptop {
+		min-height: 300px;
+		min-width: 300px;
+		background-image: url("../images/gamingLaptop.jpg");
+		background-size: cover;
+		background-position: center;
+		background-color: #FF003C;
+		border: solid; 
+		border-color: #000000;
+		border-width: 30px;
+		padding: 20px 0;
+		text-align: center;
+	}
+	
+	main .tray {
+		min-height: 300px;
+		min-width: 300px;
+		background-image: url("../images/diceTray.jpg");
+		background-size: cover;
+		background-position: center;
+		background-color: #FF003C; 
+		border: solid; 
+		border-color: #000000;
+		border-width: 30px;
+		padding: 20px 0;
+		text-align: center;
+	}
+	
+	main .gear {
+		min-height: 300px;
+		min-width: 300px;
+		background-image: url("../images/ww1Gear.jpg");
+		background-size: cover;
+		background-position: center;
+		background-color: #FF003C; 
+		border: solid; 
+		border-color: #000000;
+		border-width: 30px;
+		padding: 20px 0;
+		text-align: center;
+	}
+	
+	main .etool {
+		min-height: 300px;
+		min-width: 300px;
+		background-image: url("../images/eTool.jpg");
+		background-size: cover;
+		background-position: center;
+		background-color: #FF003C; 
+		border: solid; 
+		border-color: #000000;
+		border-width: 30px;
+		padding: 20px 0;
+		text-align: center;
+	}
+	
+	main .minis {
+		min-height: 300px;
+		min-width: 300px;
+		background-image: url("../images/miniatures.jpeg");
+		background-size: cover;
+		background-position: center;
+		background-color: #FF003C; 
+		border: solid; 
+		border-color: #000000;
+		border-width: 30px;
+		padding: 20px 0;
+		text-align: center;
+	}
+	
+	main .figs {
+		min-height: 300px;
+		min-width: 300px;
+		background-image: url("../images/minifigs.jpg");
+		background-size: cover;
+		background-position: center;
+		background-color: #FF003C; 
+		border: solid; 
+		border-color: #000000;
+		border-width: 30px;
+		padding: 20px 0;
+		text-align: center;
+	}
+	
+	main .card {
+		min-height: 300px;
+		min-width: 300px;
+		background-image: url("../images/graphicsCard.jpg");
+		background-size: cover;
+		background-position: center;
+		background-color: #FF003C; 
+		border: solid; 
+		border-color: #000000;;
+		border-width: 30px;
+		padding: 20px 0;
+		text-align: center;
+	}
+	
+	main .flag {
+		min-height: 300px;
+		min-width: 300px;
+		background-image: url("../images/britishFlag.jpg");
+		background-size: cover;
+		background-position: center;
+		background-color: #FF003C; 
+		border: solid; 
+		border-color: #000000;
+		border-width: 30px;
+		padding: 20px 0;
+		text-align: center;
+	}
+	
+	main .money {
+		min-height: 300px;
+		min-width: 300px;
+		background-image: url("../images/money.jpg");
+		background-size: cover;
+		background-position: center;
+		background-color: #FF003C; 
+		border: solid; 
+		border-color: #000000;
+		border-width: 30px;
+		padding: 20px 0;
+		text-align: center;
+	}
+	
+	.mobile-nav #menu {
+    	display: none;
+}
+	
+	footer {
+		background-color: #000000;
+		padding: 100px 25px 100px 25px; /* TRBL */
+		min-width: 50%;
+	}
+}
